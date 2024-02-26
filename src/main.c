@@ -76,6 +76,8 @@ GLUSboolean init(GLUSvoid)
 
     GLUSshape plane;
 
+
+
     glusFileLoadText("../shader/texture.vert.glsl", &vertexSource);
     glusFileLoadText("../shader/grey.frag.glsl", &fragmentSource);
 
